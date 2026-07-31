@@ -8,6 +8,6 @@ This document contains the submission links for the Java assignments.
  
 
 ---
-**Course: week 1-5
+**Course: week 1-6
 **Student Name:** MD Mahedi Hassan
 **Student ID:** 251-15-577
