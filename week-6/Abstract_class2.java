@@ -14,16 +14,16 @@ abstract class Book {
 
 
 class MyBook extends Book {
-    // 1. Declare the price variable
+    // the price variable
     int price;
     
-    // 2. Write the constructor that takes title, author, and price
+    // constructor that takes title, author, and price
     MyBook(String title, String author, int price) {
         super(title, author); 
         this.price = price;
     }
     
-    // 3. Write the display method exactly how HackerRank wants it printed
+    // display method 
     void display() {
         System.out.println("Title: " + title);
         System.out.println("Author: " + author);
@@ -46,7 +46,7 @@ public class Abstract_class2 {
         int price = scanner.nextInt();
         scanner.close();
 
-        // Create the book and display it
+        //  book and display it
         Book book = new MyBook(title, author, price);
         
         System.out.println("\n--- HackerRank Output Format ---");

@@ -12,9 +12,7 @@ class Singleton {
     }
 }
 
-// ==========================================
-// VS CODE ONLY: The Main method to run it
-// ==========================================
+
 public class Singleton_Pattern {
     public static void main(String[] args) {
         // Testing the singleton

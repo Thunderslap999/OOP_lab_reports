@@ -12,7 +12,7 @@ public class Client {
 
             String clientMessage = "", serverMessage = "";
 
-            // Loop runs until someone types "stop"
+            // Loop runs until  type "stop"
             while (!clientMessage.equals("stop")) {
                 // Send message to Server
                 System.out.print("You (Client): ");

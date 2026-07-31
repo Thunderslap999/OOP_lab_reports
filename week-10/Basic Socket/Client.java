@@ -14,7 +14,7 @@ public class Client {
             
             String line = "";
             
-            // Keeps reading what you type in the terminal and sends it to the server
+            // Keeps reading what  typeed in the terminal and sends it to the server
             while (!line.equals("Over")) {
                 line = input.nextLine();
                 out.writeUTF(line);

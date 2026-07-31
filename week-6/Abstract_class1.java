@@ -1,8 +1,5 @@
 import java.util.Scanner;
 
-// ==========================================
-// 1. VS CODE ONLY: The dummy parent class
-// ==========================================
 abstract class Book {
     String title;
     abstract void setTitle(String s);
@@ -12,9 +9,7 @@ abstract class Book {
     }
 }
 
-// ==========================================
-// 2. HACKERRANK SUBMISSION: Copy ONLY this part
-// ==========================================
+
 class MyBook extends Book {
     
     @Override
@@ -23,9 +18,7 @@ class MyBook extends Book {
     }
 }
 
-// ==========================================
-// 3. VS CODE ONLY: The Main method to run it
-// ==========================================
+
 public class Abstract_class1 {
     public static void main(String []args) {
         Scanner sc = new Scanner(System.in);

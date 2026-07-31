@@ -1,8 +1,6 @@
 import java.util.*;
 
-// ==========================================
-// VS CODE ONLY: The dummy parent class
-// ==========================================
+
 class Player {
     String name;
     int score;
@@ -13,9 +11,7 @@ class Player {
     }
 }
 
-// ==========================================
-// HACKERRANK SUBMISSION
-// ==========================================
+
 class Checker implements Comparator<Player> {
     public int compare(Player a, Player b) {
         if (a.score == b.score) {
@@ -25,9 +21,7 @@ class Checker implements Comparator<Player> {
     }
 }
 
-// ==========================================
-// VS CODE ONLY: The Main method to run it
-// ==========================================
+
 public class java_Comparator {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

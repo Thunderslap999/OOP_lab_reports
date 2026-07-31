@@ -2,10 +2,10 @@ import java.util.LinkedList;
 
 public class Producer_Consumer {
     public static void main(String[] args) throws InterruptedException {
-        // Create the shared object that holds the list and the methods
+        // shared object that holds the list and the methods
         final Processor processor = new Processor();
 
-        // Create the Producer thread
+        // Producer thread
         Thread producerThread = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -17,7 +17,7 @@ public class Producer_Consumer {
             }
         });
 
-        // Create the Consumer thread
+        // Consumer thread
         Thread consumerThread = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -29,16 +29,16 @@ public class Producer_Consumer {
             }
         });
 
-        // Start both threads at the exact same time
+
         producerThread.start();
         consumerThread.start();
 
-        // Keep the main thread alive until both are done (which is never, in this loop!)
+        
         producerThread.join();
         consumerThread.join();
     }
 
-    // This class handles the shared data and the synchronized methods
+    // handles the shared data and the synchronized methods
     public static class Processor {
         // A shared list to act as our "buffer"
         LinkedList<Integer> list = new LinkedList<>();

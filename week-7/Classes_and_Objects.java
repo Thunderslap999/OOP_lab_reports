@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Renamed to avoid clashing with the Student class from Problem 4
+
 class P1Student {
     private int[] scores = new int[5];
 

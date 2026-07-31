@@ -1,15 +1,10 @@
-// ==========================================
-// VS CODE ONLY: The dummy exception class
-// ==========================================
 class BankAccountActionInvalidException extends Exception {
     BankAccountActionInvalidException(String message) {
         super(message);
     }
 }
 
-// ==========================================
-// EXERCISM SUBMISSION
-// ==========================================
+
 class BankAccount {
     private int balance;
     private boolean isOpen;
@@ -63,9 +58,6 @@ class BankAccount {
     }
 }
 
-// ==========================================
-// VS CODE ONLY: The Main method to run it
-// ==========================================
 public class Bank_Account {
     public static void main(String[] args) {
         BankAccount account = new BankAccount();

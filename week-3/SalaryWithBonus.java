@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-// Submit on beecrowd as public class Main
 public class SalaryWithBonus {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

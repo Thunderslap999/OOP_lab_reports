@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Submit on beecrowd as public class Main
+
 public class Salary1008 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

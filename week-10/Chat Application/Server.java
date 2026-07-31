@@ -14,7 +14,7 @@ public class Server {
 
             String clientMessage = "", serverMessage = "";
 
-            // Loop runs until someone types "stop"
+            // Loop runs until type "stop"
             while (!clientMessage.equals("stop")) {
                 // Read from Client
                 clientMessage = dis.readUTF();
